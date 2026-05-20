@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Unit Tests - Backend') {
             steps {
-                dir('bugtracker-backend')
+                dir('bugtracker-backend/cmd\bugtracker')
 //                 C:\Users\david\PycharmProjects\bug-tracker\bugtracker-backend\cmd\bugtracker>pwd
 
                 {
