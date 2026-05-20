@@ -8,7 +8,7 @@ pipeline {
 //                 C:\Users\david\PycharmProjects\bug-tracker\bugtracker-backend\cmd\bugtracker
 
                 {
-                    go test -v
+                    sh 'go test -v'
                 }
             }
         }
